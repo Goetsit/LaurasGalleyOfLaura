@@ -21,10 +21,23 @@
             </header>
             <div class="row" ng-controller="LauraController as l">
                 <div class=" col-md-6  pictures" ng-repeat="lphotos in l.photos">  <!-- div for photos. l.photo = laura.photos from client js taken from the data.js file -->
-                    <div ng-click="">  <!-- div for the quote about the photo, opens above the photo -->
+                    <div ng-click="l.hideShow(lphotos)">  <!-- div for the quote about the photo, opens above the photo -->
                         <span class="quote" ng-show="lphotos.showText">{{lphotos.description}}</span>
-                        <img class="img-responsive" ng-src="{{lphotos.filepath}}" alt="{{lphotos.description}}">
-                    </div> <!-- Description housed on .data -->             
+                        <img ng-class="{'vis-hidden': lphotos.showText}" class="img-responsive" ng-src="{{lphotos.filepath}}" alt="{{lphotos.description}}">
+                    </div> <!-- Description housed on .data -->
+                    <div class="likes button-style" >
+                        <button ng-click="l.like(lphotos)">Like My Photo</button>
+                        Likes: {{lphotos.likes}} Views: {{lphotos.views}}   <!-- calls like photo form client.js which is just an increment function, similar with views but conditional for text showing -->
+                    </div>
+                    <div>
+                        <input class="commentField" type="text" name="" ng-model="lphotos.newComment">
+                        <button class="commentField" ng-click="l.addComment(lphotos, lphotos.newComment)">  <!-- calls addComment, completed comments pushed into array, comment is housed as string -->
+                            New Comment
+                        </button>
+                        <div class="comments" ng-repeat="comment in lphotos.comments">  <!-- comments stored in .data  -->
+                            {{comment}}  
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
