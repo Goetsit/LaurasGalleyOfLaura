@@ -1,8 +1,8 @@
 var pictures = {};
 pictures.data = [
-  {imageid: 1, filepath: 'images/BenLutzButz.jpg', description:'Ben wearing Krista\'s sunglasses at the corgi races. I think he pulls them off.', likes: 0, views: 0, showText: false, comments: [], newComment: "", showComments: false},
+  {imageid: 1, filepath: 'images/benlutzbutz.jpg', description:'Ben wearing Krista\'s sunglasses at the corgi races. I think he pulls them off.', likes: 0, views: 0, showText: false, comments: [], newComment: "", showComments: false},
   {imageid: 2, filepath: 'images/LauraDadAfton.jpg', description:'Dad and I at Afton 2017.', likes: 0, views: 0, showText: false, comments: [], newComment: "", showComments: false},
-  {imageid: 3, filepath: 'images/Frowns.jpg', description:'There might be only two photos of Ben and I together, and this is one of them.', likes: 0, views: 0, showText: false, comments: [], newComment: "", showComments: false},
+  {imageid: 3, filepath: 'images/frowns.jpg', description:'There might be only two photos of Ben and I together, and this is one of them.', likes: 0, views: 0, showText: false, comments: [], newComment: "", showComments: false},
   {imageid: 4, filepath: 'images/EricHarms.jpg', description:'Suicide Walk in memory of Eric Harms 2016.', likes: 0, views: 0, showText: false, comments: [], newComment: "", showComments: false},
   {imageid: 5, filepath: 'images/ArmBreak.jpg', description:'I broke my arm snowboarding.', likes: 0, views: 0, showText: false, comments: [], newComment: "", showComments: false},
   {imageid: 6, filepath: 'images/BenButtz.jpg', description:'The glorious Benjamin Lutz.', likes: 0, views: 0, showText: false, comments: [], newComment: "", showComments: false},
@@ -21,5 +21,6 @@ pictures.data = [
   {imageid: 19, filepath: 'images/poppop.jpg', description:'Laura as a small child and her grandpa "pop-pop". He was a great man.', likes: 0, views: 0, showText: false, comments: [], newComment: "", showComments: false},
   {imageid: 20, filepath: 'images/PeopleILike.jpg', description:'Christmas time beers with Frank, Joe, Paige, and Ben.', likes: 0, views: 0, showText: false, comments: [], newComment: "", showComments: false},
   {imageid: 21, filepath: 'images/Wife.jpg', description:'This is my wife. My absolute best friend, Krista', likes: 0, views: 0, showText: false, comments: [], newComment: "", showComments: false},
-  {imageid: 22, filepath: 'images/Brother.jpg', description:'Brother Jeremy and my Christmas gift last year.', likes: 0, views: 0, showText: false, comments: [], newComment: "", showComments: false},  
+  {imageid: 22, filepath: 'images/brother.jpg', description:'Brother Jeremy and my Christmas gift last year.', likes: 0, views: 0, showText: false, comments: [], newComment: "", showComments: false},
+  
 ];
