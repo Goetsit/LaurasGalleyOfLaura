@@ -11,7 +11,6 @@ pictures.data = [
   {imageid: 9, filepath: 'images/DadLauraDads50.jpg', description:'My dad and I at his 50th birthday party.', likes: 0, views: 0, showText: false, comments: [], newComment: "", showComments: false},
   {imageid: 10, filepath: 'images/Halloween2016Whiskey.jpg', description:'I really like Whiskey, can you guess who I was dressed as? Think Dumb and Dumber.', likes: 0, views: 0, showText: false, comments: [], newComment: "", showComments: false},
   {imageid: 11, filepath: 'images/LauraKristaPride2017.jpg', description:'Krista and I volunteered for Pride in 2017.', likes: 0, views: 0, showText: false, comments: [], newComment: "", showComments: false},
-  {imageid: 12, filepath: 'images/Lutsen.jpg', description:'Keeping things classy, pre arm break Lutsen 2017.', likes: 0, views: 0, showText: false, comments: [], newComment: "", showComments: false},
   {imageid: 13, filepath: 'images/SupportNerds.jpg', description:'Greatest people I have ever worked with. Avionte Support. Some of these people are my best friends.', likes: 0, views: 0, showText: false, comments: [], newComment: "", showComments: false},
   {imageid: 14, filepath: 'images/RobbLauraDad2017.jpg', description:'Robb, me, Dad at the wedding of Pam and Adam 2017.', likes: 0, views: 0, showText: false, comments: [], newComment: "", showComments: false},
   {imageid: 15, filepath: 'images/sapphire.jpg', description:'Childhood dog, Sapphire.', likes: 0, views: 0, showText: false, comments: [], newComment: "", showComments: false},
