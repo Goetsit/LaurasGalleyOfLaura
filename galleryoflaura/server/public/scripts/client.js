@@ -21,8 +21,8 @@ myApp.controller('LauraController', function(){  //creating controller
       }
     } //click function for picture to show descrpition
   
-    function addComment(lphotos, newcomment) {
-        lphotos.comments.push(newcomment);
+    function addComment(lphotos, newComment) {
+        lphotos.comments.push(newComment);
         lphotos.newComment = '';
     }  //add comment to comments array
   
