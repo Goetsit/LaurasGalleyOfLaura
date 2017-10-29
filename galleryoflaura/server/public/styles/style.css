@@ -1,0 +1,49 @@
+body{
+    background: linear-gradient(45deg, #E5FFF5, #85BAB3);
+}
+
+
+img{
+    padding: 20px;
+    margin: auto;
+    background: linear-gradient(180deg,white, #FFE5FB, #E5D1E8);
+    height: 50%;
+    width: 50%;
+}
+
+
+h2{
+    font-family: 'Kranky', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+.comments{
+    text-align: center;
+    height: 50px;
+    width: 150px;
+}
+
+.likes{
+    margin: 10px;
+   text-align: center;
+}
+.container{   
+    background: linear-gradient(45deg, #85BAB3,#E5FFF5);
+    margin: auto;
+}
+
+.commentField{
+    display: block;
+    margin : 0 auto;
+}
+
+
+button{
+    background-color: #E5D1E8;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+ 
+}
