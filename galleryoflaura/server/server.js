@@ -1,6 +1,10 @@
 var express = require('express');
 var app = express();
-var port = 5000;
+var port = process.env.PORT || 5000;
 
 // Serve up static files
-app.use(express.static('server/public'));
+app.use(express.static('public'));
+
+app.listen(port, function(){
+    console.log('listening on port', port);
+  });
